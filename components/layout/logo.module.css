@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  justify-self: end;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: var(--size-8);
+  }
+}
